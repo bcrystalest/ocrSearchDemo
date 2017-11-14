@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__51-[NetWorkTool getName:andCode:WithSuccess:failure:]_block_invoke.91:NetWorkTool.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[matchViewController showRightTableViewData]:matchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imgView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__51-[NetWorkTool getName:andCode:WithSuccess:failure:]_block_invoke_2:NetWorkTool.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "newJson[@&quot;result&quot;][@&quot;pic&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[matchViewController showMatchResult]:matchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_IDInfo">
+            </PersistentString>
+            <PersistentString
+               value = "_mainModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__30-[matchViewController getData]_block_invoke:matchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[UIImage imageWithData:imgData]">
+            </PersistentString>
+            <PersistentString
+               value = "weakSelf.mainModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[matchViewController getData]:matchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_IDInfo.name">
+            </PersistentString>
+            <PersistentString
+               value = "_IDInfo.num">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IDInfoViewController tableView:cellForRowAtIndexPath:]:IDInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_IDInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FaceStreamDetectorViewController viewDidAppear:]:FaceStreamDetectorViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.previewView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.previewView.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
