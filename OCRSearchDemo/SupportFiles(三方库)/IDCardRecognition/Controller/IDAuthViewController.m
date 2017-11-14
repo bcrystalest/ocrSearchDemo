@@ -9,7 +9,7 @@
 #import "IDAuthViewController.h"
 #import "AVCaptureViewController.h"
 #import "NetWorkTool.h"
-#import "FaceStreamDetectorViewController.h"
+
 @interface IDAuthViewController () <UINavigationControllerDelegate>
 
 @end
@@ -81,18 +81,13 @@
 }
 
 
-#pragma mark - 证件识别
-- (IBAction)cardShoot:(UIButton *)sender {
+#pragma mark - 立即拍摄
+- (IBAction)shoot:(UIButton *)sender {
     AVCaptureViewController *AVCaptureVC = [[AVCaptureViewController alloc] init];
     [self.navigationController pushViewController:AVCaptureVC animated:YES];
 }
 
-#pragma mark - 人脸识别
-- (IBAction)faseShoot:(UIButton *)sender {
-    FaceStreamDetectorViewController* fsd=[[FaceStreamDetectorViewController alloc]initWithNibName:@"FaceStreamDetectorViewController" bundle:nil]; 
-//    FaceStreamDetectorViewController *fsd= [FaceStreamDetectorViewController new];
-    [self.navigationController pushViewController:fsd animated:YES];
-}
+
 //#pragma mark - 导航控制器代理方法
 //#pragma mark 导航控制器即将展示新的控制器时，会掉用这个方法
 //// 要想使用该方法，必须1、控制器遵循UINavigationControllerDelegate；2、控制器代理必须为遵循UINavigationControllerDelegate控制器

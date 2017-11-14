@@ -62,16 +62,5 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
-      <ContextState
-         contextName = "-[FaceStreamDetectorViewController viewDidAppear:]:FaceStreamDetectorViewController.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "self.previewView.frame">
-            </PersistentString>
-            <PersistentString
-               value = "self.previewView.center">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
    </ContextStates>
 </VariablesViewState>
