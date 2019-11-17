@@ -87,6 +87,12 @@
     [self.navigationController pushViewController:AVCaptureVC animated:YES];
 }
 
+- (IBAction)numberShoot:(id)sender {
+    AVCaptureViewController *AVCaptureVC = [[AVCaptureViewController alloc] init];
+    [self.navigationController pushViewController:AVCaptureVC animated:YES];
+}
+
+
 
 //#pragma mark - 导航控制器代理方法
 //#pragma mark 导航控制器即将展示新的控制器时，会掉用这个方法
